@@ -1,0 +1,5 @@
+BOOTLOADER	cefdk.bin	0x0
+CONFIG		intellogo.bmp		0x400000
+KERNEL		bzImage			0x800000
+RAMDISK	initrd.gz		0xC00000
+END		NULL			-1
